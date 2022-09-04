@@ -1,4 +1,4 @@
 baseURL = 'https://mitchell.to/'
 languageCode = 'en-us'
 title = 'Mitchell St Amant'
-theme = "hyde"
+theme = "showfolio"
