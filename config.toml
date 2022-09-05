@@ -10,7 +10,6 @@ theme = "showfolio"
   authorEmail = "contact@mitchell.to"
   authorImage = "/memoji.png"
   autoDarkMode = true
-
   copyright = "Copyright © 2022 - Mitchell St Amant · All rights reserved"
   favicon = "favicon.ico"
 
