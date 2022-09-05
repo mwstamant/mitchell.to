@@ -46,4 +46,3 @@ jobs:
           exclude: |
             config.toml
             README.md
-            /archetypes/*
