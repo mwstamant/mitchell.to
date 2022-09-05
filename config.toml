@@ -7,8 +7,8 @@ theme = "showfolio"
   name = "Mitchell St Amant"
   description = "Modern portfolio theme for your Hugo site."
   author = "Mitchell St Amant"
-  authorEmail = "name@example.com"
-  authorImage = "/photo.png"
+  authorEmail = "contact@mitchell.to"
+  authorImage = "/memoji.png"
   autoDarkMode = true
 
   copyright = "Copyright © 2022 - Mitchell St Amant · All rights reserved"
@@ -16,7 +16,7 @@ theme = "showfolio"
 
 [params.homepage]
   title = "Hello 👋 I'm Mitchell St Amant"
-  tagline = "UX Designer and Product Lead"
+  tagline = "Senior Cloud Engineer and Architect"
   description = "Develop functional user interfaces and provide a valuable experience to customers."
   contact = "https://twitter.com/"
 
