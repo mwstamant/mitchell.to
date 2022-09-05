@@ -18,7 +18,7 @@ title = 'Mitchell St Amant'
 [params.homepage]
   title = "Hello 👋 I'm Mitchell St Amant"
   tagline = "Senior Cloud Engineer and Architect"
-  description = "I know computers."
+  description = "Made with ❤️+☕ in Toronto, Canada"
   contact = "https://linkedin.com/in/mwstamant"
 
 [params.homepage.codepen]
