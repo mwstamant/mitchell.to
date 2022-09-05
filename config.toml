@@ -9,15 +9,15 @@ theme = "showfolio"
   author = "Mitchell St Amant"
   authorEmail = "contact@mitchell.to"
   authorImage = "/memoji.png"
-  autoDarkMode = false
+  autoDarkMode = true
   copyright = "Copyright © 2022 - Mitchell St Amant · All rights reserved"
-  favicon = "favicon.ico"
+  favicon = "/favicon.ico"
 
 [params.homepage]
-  title = "Hello  👋  I'm Mitchell St Amant"
+  title = "Hello 👋 I'm Mitchell St Amant"
   tagline = "Senior Cloud Engineer and Architect"
   description = "I know computers."
-  contact = "https://twitter.com/"
+  contact = "https://linkedin.com/in/mwstamant"
 
 [params.homepage.codepen]
   username = "apvarun"
