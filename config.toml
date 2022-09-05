@@ -1,17 +1,19 @@
-baseURL = 'https://mitchell.to/'
-languageCode = 'en-us'
-title = 'Mitchell St Amant'
 theme = "showfolio"
+languageCode = 'en-us'
+baseURL = 'https://mitchell.to/'
+title = 'Mitchell St Amant'
+
 
 [params]
   name = "Mitchell St Amant"
   description = "Modern portfolio theme for your Hugo site."
   author = "Mitchell St Amant"
   authorEmail = "contact@mitchell.to"
-  authorImage = "/memoji.png"
+  authorImage = "memoji.png"
   autoDarkMode = true
+
   copyright = "Copyright © 2022 - Mitchell St Amant · All rights reserved"
-  favicon = "/favicon.ico"
+  favicon = "favicon.ico"
 
 [params.homepage]
   title = "Hello 👋 I'm Mitchell St Amant"
