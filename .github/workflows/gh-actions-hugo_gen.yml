@@ -1,4 +1,4 @@
-name: "Hugo: Generate Static Site"
+name: "Generate and Deploy Hugo Site"
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
 
 jobs:
   build_and_deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest # Run on latest available Ubuntu runner
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
@@ -20,7 +20,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: "latest"
+          hugo-version: "latest" # Select latest available Hugo version
           extended: true
 
       - name: Setup Node
@@ -28,18 +28,18 @@ jobs:
         with:
           node-version: "16"
           cache: "npm"
-          cache-dependency-path: "**/package-lock.json"
+          cache-dependency-path: "**/package-lock.json" # Symlink to Hugo theme NPM package dependencies
 
-      - run: npm ci
+      - run: npm ci # Run NPM
 
       - name: Build Hugo Site
-        run: hugo --minify
+        run: hugo --minify # Run Hugo with minify option
 
       - name: FTP Deploy
         uses: SamKirkland/FTP-Deploy-Action@4.3.2
-        if: ${{ github.ref == 'refs/heads/master' }}
+        if: ${{ github.ref == 'refs/heads/master' }} # Only run FTP deployment with master branch
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./public/
+          server: ${{ secrets.FTP_SERVER }} # Get secret from GitHub Action config
+          username: ${{ secrets.FTP_USERNAME }} #""
+          password: ${{ secrets.FTP_PASSWORD }} #""
+          local-dir: ./public/ # Upload Hugo-generated static site files
