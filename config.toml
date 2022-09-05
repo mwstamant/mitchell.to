@@ -2,3 +2,55 @@ baseURL = 'https://mitchell.to/'
 languageCode = 'en-us'
 title = 'Mitchell St Amant'
 theme = "showfolio"
+
+[params]
+  name = "Mitchell St Amant"
+  description = "Modern portfolio theme for your Hugo site."
+  author = "Mitchell St Amant"
+  authorEmail = "name@example.com"
+  authorImage = "/photo.png"
+  autoDarkMode = true
+
+  copyright = "Copyright © 2022 - Mitchell St Amant · All rights reserved"
+  favicon = "favicon.ico"
+
+[params.homepage]
+  title = "Hello 👋 I'm Mitchell St Amant"
+  tagline = "UX Designer and Product Lead"
+  description = "Develop functional user interfaces and provide a valuable experience to customers."
+  contact = "https://twitter.com/"
+
+[params.homepage.codepen]
+  username = "apvarun"
+  pens = ["MQaRKL", "RxodrP", "BmXGdm", "wdVypQ"]
+
+[params.homepage.resume]
+  skills = ["Visual Design", "Product Development"]
+
+[[params.homepage.resume.work]]
+  name = "Google"
+  role = "Product Engineer"
+  duration = "Nov 2019 - Apr 2021"
+
+[[params.homepage.resume.work]]
+  name = "Amazon"
+  role = "Sr. UX Designer"
+  duration = "Jan 2016 - Oct 2019"
+
+[[params.homepage.resume.courses]]
+  name = "Design Principles"
+  provider = "UX Academy"
+  duration = "Nov 2019 - Jan 2020"
+
+[params.homepage.social]
+  twitter = "https://twitter.com/officialmwarren"
+  linkedin = "https://linkedin.com/in/mwstamant"
+  github = "https://github.com/mwstamant"
+
+[build]
+  writeStats = true
+
+# syntax highlight settings
+[markup]
+  [markup.highlight]
+    style = "dracula"
