@@ -26,9 +26,9 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: '16'
-          cache: 'npm'
-          cache-dependency-path: '**/package-lock.json'
+          node-version: "16"
+          cache: "npm"
+          cache-dependency-path: "**/package-lock.json"
 
       - run: npm ci
 
@@ -43,3 +43,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./public/
+          exclude: |
+            config.toml
+            README.md
+            /archetypes
