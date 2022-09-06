@@ -26,7 +26,7 @@ title = 'Mitchell St Amant'
   pens = ["dyeoroB"]
 
 [params.homepage.resume]
-  skills = ["Azure", "AWS", "Infrastructure-as-Code", "Information Security & Data Privacy", "Delivery Pipelines CI/CD"]
+  skills = ["Azure", "AWS", "Infrastructure-as-Code (Terraform)", "Information Security & Data Privacy", "Delivery Pipelines CI/CD (Jenkins, Azure DevOps)", "Content Delivery CDN", "Source Control (Git, Subversion)", "Containers (Docker, Kubernetes), API's (REST, JSON, SOAP)]
 
 [[params.homepage.resume.work]]
   name = "Wolters Kluwer"
