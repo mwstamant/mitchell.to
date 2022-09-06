@@ -38,10 +38,30 @@ title = 'Mitchell St Amant'
   role = "Manager of Information Technology"
   duration = "Mar 2017 - Nov 2020"
 
-[[params.homepage.resume.courses]]
-  name = "Senior Information Systems Manager and Network Architect"
-  provider = "Acuren"
+[[params.homepage.resume.work]]
+  name = "Acuren"
+  role = "Senior Information Systems Manager and Network Architect"
   duration = "Oct 2014 - Feb 2017"
+
+[[params.homepage.resume.courses]]
+  name = "Azure Solutions Architect"
+  provider = "Microsoft"
+  duration = "Oct 2019"
+
+[[params.homepage.resume.courses]]
+  name = "Azure Security Engineer"
+  provider = "Microsoft"
+  duration = "Feb 2019"
+
+[[params.homepage.resume.courses]]
+  name = "AWS Certified Solutions Architect"
+  provider = "Amazon"
+  duration = "Mar 2018"
+
+[[params.homepage.resume.courses]]
+  name = "Certified Information Systems Security Professional (CISSP)"
+  provider = "International Information System Security Certification Consortium"
+  duration = "Feb 2020"
 
 [params.homepage.social]
   twitter = "https://twitter.com/officialmwarren"
