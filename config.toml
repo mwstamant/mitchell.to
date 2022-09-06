@@ -23,7 +23,7 @@ title = 'Mitchell St Amant'
 
 [params.homepage.codepen]
   username = "mwstamant"
-  pens = ["dyeoroB", "eYrNaOd"]
+  pens = ["eYrNaNB", "dyeoroB", "dyeoEMK", "eYrNaOd"]
 
 [params.homepage.resume]
   skills = ["Azure", "AWS", "Infrastructure-as-Code (Terraform)", "Build Automation (Packer, Ansible, Salt)", "Scripting (PowerShell, Python, Bash)", "Delivery Pipelines CI/CD (Jenkins, Azure DevOps)", "Source Control (Git, Subversion)", "Containers (Docker, Kubernetes)", "API's (REST, JSON, SOAP)", "Software Defined Networking", "Information Security & Data Privacy", "Content Delivery CDN"]
