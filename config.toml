@@ -22,26 +22,26 @@ title = 'Mitchell St Amant'
   contact = "https://linkedin.com/in/mwstamant"
 
 [params.homepage.codepen]
-  username = "apvarun"
-  pens = ["MQaRKL", "RxodrP", "BmXGdm", "wdVypQ"]
+  username = "mwstamant"
+  pens = ["dyeoroB"]
 
 [params.homepage.resume]
-  skills = ["Visual Design", "Product Development"]
+  skills = ["Azure", "AWS", "Infrastructure-as-Code", "Information Security & Data Privacy", "Delivery Pipelines CI/CD"]
 
 [[params.homepage.resume.work]]
-  name = "Google"
-  role = "Product Engineer"
-  duration = "Nov 2019 - Apr 2021"
+  name = "Wolters Kluwer"
+  role = "IT Infrastructure & Operations Manager - Senior Cloud Engineer"
+  duration = "Jul 2021 - Sep 2022"
 
 [[params.homepage.resume.work]]
-  name = "Amazon"
-  role = "Sr. UX Designer"
-  duration = "Jan 2016 - Oct 2019"
+  name = "Chartright Air Group"
+  role = "Manager of Information Technology"
+  duration = "Mar 2017 - Nov 2020"
 
 [[params.homepage.resume.courses]]
-  name = "Design Principles"
-  provider = "UX Academy"
-  duration = "Nov 2019 - Jan 2020"
+  name = "Senior Information Systems Manager and Network Architect"
+  provider = "Acuren"
+  duration = "Oct 2014 - Feb 2017"
 
 [params.homepage.social]
   twitter = "https://twitter.com/officialmwarren"
