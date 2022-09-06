@@ -26,7 +26,7 @@ title = 'Mitchell St Amant'
   pens = ["dyeoroB"]
 
 [params.homepage.resume]
-  skills = ["Azure", "AWS", "Infrastructure-as-Code (Terraform)", "Build Automation (Packer, Ansible, Salt)", "Scripting ("PowerShell, Python, Bash"), "Delivery Pipelines CI/CD (Jenkins, Azure DevOps)", "Source Control (Git, Subversion)", "Containers (Docker, Kubernetes)", "API's (REST, JSON, SOAP)", "Software Defined Networking", "Information Security & Data Privacy", "Content Delivery CDN"]
+  skills = ["Azure", "AWS", "Infrastructure-as-Code (Terraform)", "Build Automation (Packer, Ansible, Salt)", "Scripting ("PowerShell, Python, Bash")", "Delivery Pipelines CI/CD (Jenkins, Azure DevOps)", "Source Control (Git, Subversion)", "Containers (Docker, Kubernetes)", "API's (REST, JSON, SOAP)", "Software Defined Networking", "Information Security & Data Privacy", "Content Delivery CDN"]
 
 [[params.homepage.resume.work]]
   name = "Wolters Kluwer"
@@ -57,6 +57,11 @@ title = 'Mitchell St Amant'
   name = "AWS Certified Solutions Architect"
   provider = "Amazon"
   duration = "Mar 2018"
+
+[[params.homepage.resume.courses]]
+  name = "Certified Terraform Associate"
+  provider = "HashiCorp"
+  duration = "Dec 2021"
 
 [[params.homepage.resume.courses]]
   name = "Certified Information Systems Security Professional (CISSP)"
