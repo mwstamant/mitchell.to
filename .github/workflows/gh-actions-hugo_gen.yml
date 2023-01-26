@@ -36,7 +36,7 @@ jobs:
         run: hugo --minify # Run Hugo with minify option
 
       - name: FTP Deploy
-        uses: SamKirkland/FTP-Deploy-Action@4.3.2
+        uses: SamKirkland/FTP-Deploy-Action@4.3.3
         if: ${{ github.ref == 'refs/heads/master' }} # Only run FTP deployment with master branch
         with:
           server: ${{ secrets.FTP_SERVER }} # Get secret from GitHub Action config
