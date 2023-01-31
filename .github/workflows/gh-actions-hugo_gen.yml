@@ -23,14 +23,14 @@ jobs:
           hugo-version: "latest" # Select latest available Hugo version
           extended: true
 
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: "16"
-          cache: "npm"
-          cache-dependency-path: "**/package-lock.json" # Symlink to Hugo theme NPM package dependencies
+      #- name: Setup Node
+        #uses: actions/setup-node@v3
+        #with:
+        #  node-version: "16"
+        #  cache: "npm"
+        #  cache-dependency-path: "**/package-lock.json" # Symlink to Hugo theme NPM package dependencies
 
-      - run: npm ci # Run NPM
+      #- run: npm ci # Run NPM
 
       - name: Build Hugo Site
         run: hugo --minify # Run Hugo with minify option
