@@ -9,7 +9,7 @@ enableRobotsTXT = true
 [params]
   footer = "Mitchell St Amant"
   description = "Information Technology Leader"
-  avatarURL = "/~images/memoji.webp"
+  avatarURL = "/images/memoji.webp"
   AvatarAltText = "avatar"
   avatarSize = "size-l"
   customHeadHTML = """
