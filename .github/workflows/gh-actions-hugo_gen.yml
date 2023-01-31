@@ -23,7 +23,7 @@ jobs:
           hugo-version: "latest" # Select latest available Hugo version
           extended: true
 
-      - #name: Setup Node
+      #- name: Setup Node
         #uses: actions/setup-node@v3
         #with:
         #  node-version: "16"
