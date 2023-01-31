@@ -1,82 +1,24 @@
-theme = "showfolio"
-languageCode = 'en-us'
-baseURL = 'https://mitchell.to/'
-title = 'Mitchell St Amant'
-
+baseURL = "https://mitchell.to"
+title = "Mitchell St Amant"
+theme = "gokarna"
+languageCode = "en"
+defaultContentLanguage = "en"
+enableEmoji = true
+enableRobotsTXT = true
 
 [params]
-  name = "Mitchell St Amant"
-  description = "Modern portfolio theme for your Hugo site."
-  author = "Mitchell St Amant"
-  authorEmail = "brinks_pistils.0g@icloud.com"
-  authorImage = "memoji.png"
-  autoDarkMode = true
-
-  copyright = "Copyright © 2022 - Mitchell St Amant · All rights reserved"
-  favicon = "favicon.ico"
-
-[params.homepage]
-  title = "Hello 👋 I'm Mitchell St Amant"
-  tagline = "Senior Cloud Engineer and Architect"
-  description = "Made with ❤️+☕ in Toronto, Canada"
-  contact = "https://linkedin.com/in/mwstamant"
-
-[params.homepage.codepen]
-  username = "mwstamant"
-  pens = ["eYrNaNB", "dyeoroB", "ExLjzmb", "eYrNaOd", "jOxPoar"]
-
-[params.homepage.resume]
-  skills = ["Azure", "AWS", "Infrastructure-as-Code (Terraform)", "Build Automation (Packer, Ansible, Salt)", "Scripting (PowerShell, Python, Bash)", "Delivery Pipelines CI/CD (Jenkins, Azure DevOps)", "Source Control (Git, Subversion)", "Containers (Docker, Kubernetes)", "API's (REST, JSON, SOAP)", "Software Defined Networking", "Information Security & Data Privacy", "Content Delivery CDN"]
-
-[[params.homepage.resume.work]]
-  name = "Wolters Kluwer"
-  role = "IT Infrastructure & Operations Manager - Senior Cloud Engineer"
-  duration = "Jul 2021 - Sep 2022"
-
-[[params.homepage.resume.work]]
-  name = "Chartright Air Group"
-  role = "Manager of Information Technology"
-  duration = "Mar 2017 - Nov 2020"
-
-[[params.homepage.resume.work]]
-  name = "Acuren"
-  role = "Senior Information Systems Manager and Network Architect"
-  duration = "Oct 2014 - Feb 2017"
-
-[[params.homepage.resume.courses]]
-  name = "Azure Solutions Architect"
-  provider = "Microsoft"
-  duration = "Oct 2019"
-
-[[params.homepage.resume.courses]]
-  name = "Azure Security Engineer"
-  provider = "Microsoft"
-  duration = "Feb 2019"
-
-[[params.homepage.resume.courses]]
-  name = "AWS Certified Solutions Architect"
-  provider = "Amazon"
-  duration = "Mar 2018"
-
-[[params.homepage.resume.courses]]
-  name = "Certified Terraform Associate"
-  provider = "HashiCorp"
-  duration = "Dec 2021"
-
-[[params.homepage.resume.courses]]
-  name = "Certified Information Systems Security Professional (CISSP)"
-  provider = "International Information System Security Certification Consortium"
-  duration = "Feb 2020"
-
-[params.homepage.social]
-  mastodon = "https://twit.social/@drmitch"
-  linkedin = "https://linkedin.com/in/mwstamant"
-  github = "https://github.com/mwstamant"
-
-[build]
-  writeStats = true
-
-# syntax highlight settings
-[markup]
-  [markup.highlight]
-    style = "dracula"
+  footer = "Mitchell St Amant"
+  description = "Information Technology Leader"
+  avatarURL = "images/memoji.webp"
+  AvatarAltText = "avatar"
+  avatarSize = "size-l"
+  customHeadHTML = """
+    <a rel="me" href="https://twit.social/@drmitch"></a>
+  """
+    socialIcons = [
+    {name = "linkedin", url = "https://linkedin.com/in/mwstamant"},
+    {name = "buymeacoffee", url = "https://www.buymeacoffee.com/mwstamant"},
+    {name = "mastodon", url = "https://twit.social/@drmitch"},
+    {name = "discord", url = "https://discordapp.com/users/846893880107728966"},
+    {name = "github", url = "https://github.com/mwstamant"}
+  ]
